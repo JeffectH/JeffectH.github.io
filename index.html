@@ -41,8 +41,6 @@
 				<h2 class="header__subtitle">Разработка C# | Unity</h2>
 			</div>
 
-
-
 			<a href="#resume" class="mouse_scroll">
 					<div class="mouse">
 						<div class="wheel"></div>
@@ -82,16 +80,14 @@
 
 				<p><strong>Евгений Малько</strong><br>
 				28 лет, Хабаровск, Россия</p>
-				<p>О СЕБЕ</p>
+				<p>Целеустремлённый. Хорошо знаю язык C#, люблю на нём вести разработку. Много времени посвятил, разработке на движке Unity, чтобы визуально видеть результат программирования, но также есть опыт разработке и на .NET. В основном работаю на Backend. Есть хорошие навыки в моделирования на Blender.</p>
 
 				<!-- Опыт и Образование -->
 				<div class="row">
 					<div class="col-sm-6">
-
 						<div class="heading heading--medium">
 							Опыт работы
 						</div>
-
 						<ul class="definition-list">
 							<li class="definition-list__item">
 								<div class="definition-list__def">
@@ -102,7 +98,10 @@
 								</div>
 							</li>
 						</ul>
-
+                        <div class="heading heading--medium">
+                             <a href="https://drakesoft.ru/">Сайт с работами на тему VRAR</a>
+                        </div>
+                        <p>Все работы полностью сделаны мной</p>
 					</div>
 					<div class="col-sm-6">
 
@@ -188,16 +187,13 @@
 						<span class="filter-block__button filter" data-filter="all">Все</span>
 					</li>
 					<li class="filter-block__element">
-						<span class="filter-block__button filter" data-filter=".html-css">DrakeSoft VR|AR</span>
+						<span class="filter-block__button filter" data-filter=".drakesoft">DrakeSoft VR|AR</span>
 					</li>
 					<li class="filter-block__element">
-						<span class="filter-block__button filter" data-filter=".bootstrap">Симуляторы для обучения</span>
+						<span class="filter-block__button filter" data-filter=".simulator">Симуляторы для обучения</span>
 					</li>
 					<li class="filter-block__element">
-						<span class="filter-block__button filter" data-filter=".tutorial">Задачки ООП с</span>
-					</li>
-					<li class="filter-block__element">
-						<span class="filter-block__button filter" data-filter=".payed">На заказ</span>
+						<span class="filter-block__button filter" data-filter=".tutorial">Учеба ООП</span>
 					</li>
 				</ul>
 			</div>
@@ -206,125 +202,128 @@
 			<!-- Блок - ряд с работами -->
 			<div class="row" id="portfolio-projects">
 
+
+                <!-- Работа в портфолио -->
+                  <div class="col-sm-4 mix drakesoft">
+                    <div class="portfolio-item">
+                        <div class="portfolio-item__image">
+                            <a href="#" class="fancybox portfolio-item__image__hover" rel="group" >
+                                <i class="fa fa-search" aria-hidden="true"></i><br>
+                                <span>смотреть репозиторий</span>
+                            </a>
+                            <img src="usercontent/img/project_christmass_tree.jpg">
+                        </div>
+                        <div class="portfolio-item__title">
+                            <a href="#">VR - "Волшебная ёлка"</a>
+                        </div>
+                        <div class="portfolio-item__description">
+                         Реализован VR аттракцион по наряжению ёлки
+                        </div>
+                    </div>
+                </div>
+                <!-- // Работа в портфолио -->
+
 				<!-- Работа в портфолио -->
-				<div class="col-sm-4 mix html-css tutorial">
+				<div class="col-sm-4 mix tutorial">
 					<div class="portfolio-item">
 						<div class="portfolio-item__image">
-							<a href="usercontent/img/full/organic.png" class="fancybox portfolio-item__image__hover" rel="group" title="Учебный макет Organica">
+							<a href="https://github.com/JeffectH/PassengerTrainConfigurator/blob/master/PassengerTrainConfigurator/Program.cs" class="fancybox portfolio-item__image__hover" rel="group" >
 								<i class="fa fa-search" aria-hidden="true"></i><br>
-								<span>смотреть макет</span>
+								<span>смотреть репозиторий</span>
 							</a>
-							<img src="usercontent/img/project_organica.jpg">
+							<img src="usercontent/img/project_oop.png">
 						</div>
 						<div class="portfolio-item__title">
-							<a href="#">Учебный макет Organica</a>
+							<a href="https://github.com/JeffectH/PassengerTrainConfigurator/blob/master/PassengerTrainConfigurator/Program.cs">Конфигуратор поездов</a>
 						</div>
 						<div class="portfolio-item__description">
-							Верстка одностраничного сайта по PSD макету.
+							Реализация класса диспетчера, который создает поезда
 						</div>
 					</div>
 				</div>
 				<!-- // Работа в портфолио -->
 
 				<!-- Работа в портфолио -->
-				<div class="col-sm-4 mix bootstrap tutorial">
-					<div class="portfolio-item">
-						<div class="portfolio-item__image">
-							<a href="usercontent/img/full/apollo.png" class="fancybox portfolio-item__image__hover" rel="group" title="Учебный макет Аполло">
-								<i class="fa fa-search" aria-hidden="true"></i><br>
-								<span>смотреть макет</span>
-							</a>
-							<img src="usercontent/img/project_apollo.jpg" alt="Учебный макет Аполло">
-						</div>
-						<div class="portfolio-item__title">
-							<a href="#">Учебный макет Аполло</a>
-						</div>
-						<div class="portfolio-item__description">
-							Верстка лендинга хостинг компании. Мобильная адаптивность.
-						</div>
-					</div>
-				</div>
+				<div class="col-sm-4 mix tutorial">
+                    <div class="portfolio-item">
+                        <div class="portfolio-item__image">
+                            <a href="https://github.com/JeffectH/GladiatorFights/blob/master/GladiatorFights/Program.cs" class="fancybox portfolio-item__image__hover" rel="group" >
+                                <i class="fa fa-search" aria-hidden="true"></i><br>
+                                <span>смотреть репозиторий</span>
+                            </a>
+                            <img src="usercontent/img/project_oop.png">
+                        </div>
+                        <div class="portfolio-item__title">
+                            <a href="https://github.com/JeffectH/GladiatorFights/blob/master/GladiatorFights/Program.cs">Гладиаторские бои</a>
+                        </div>
+                        <div class="portfolio-item__description">
+                            Реализация арены, которая отвечает за сражение двух бойцов между собой
+                        </div>
+                    </div>
+                </div>
 				<!-- // Работа в портфолио -->
 
 				<!-- Работа в портфолио -->
-				<div class="col-sm-4 mix bootstrap tutorial">
-					<div class="portfolio-item">
-						<div class="portfolio-item__image">
-							<a href="usercontent/img/full/portfolio.png" class="fancybox portfolio-item__image__hover" rel="group" title="Личный сайт портфолио">
-								<i class="fa fa-search" aria-hidden="true"></i><br>
-								<span>смотреть макет</span>
-							</a>
-							<img src="usercontent/img/project_portfolio.jpg" alt="Личный сайт портфолио">
-						</div>
-						<div class="portfolio-item__title">
-							<a href="#">Личный сайт портфолио</a>
-						</div>
-						<div class="portfolio-item__description">
-							Верстка личного сайта портфолио на котором вы сейчас находитесь.
-						</div>
-					</div>
-				</div>
+				<div class="col-sm-4 mix tutorial">
+                    <div class="portfolio-item">
+                        <div class="portfolio-item__image">
+                            <a href="https://github.com/JeffectH/Supermarket/blob/master/Supermarket/Program.cs" class="fancybox portfolio-item__image__hover" rel="group" >
+                                <i class="fa fa-search" aria-hidden="true"></i><br>
+                                <span>смотреть репозиторий</span>
+                            </a>
+                            <img src="usercontent/img/project_oop.png">
+                        </div>
+                        <div class="portfolio-item__title">
+                            <a href="https://github.com/JeffectH/Supermarket/blob/master/Supermarket/Program.cs">Супермаркет</a>
+                        </div>
+                        <div class="portfolio-item__description">
+                            Реализация программы администрирования супермаркета
+                        </div>
+                    </div>
+                </div>
 				<!-- // Работа в портфолио -->
 
 				<!-- Работа в портфолио -->
-				<div class="col-sm-4 mix html-css payed">
-					<div class="portfolio-item">
-						<div class="portfolio-item__image">
-							<a href="usercontent/img/full/car-concept.png" class="fancybox portfolio-item__image__hover" rel="group" title="Промо сайт автомобиля">
-								<i class="fa fa-search" aria-hidden="true"></i><br>
-								<span>смотреть макет</span>
-							</a>
-							<img src="usercontent/img/project_auto.jpg" alt="Промо сайт автомобиля">
-						</div>
-						<div class="portfolio-item__title">
-							<a href="#">Промо сайт автомобиля</a>
-						</div>
-						<div class="portfolio-item__description">
-							Верстка одностраничного сайта по PSD макету.
-						</div>
-					</div>
-				</div>
+                <div class="col-sm-4 mix tutorial">
+                    <div class="portfolio-item">
+                        <div class="portfolio-item__image">
+                            <a href="https://github.com/JeffectH/WarGame/blob/master/Program.cs" class="fancybox portfolio-item__image__hover" rel="group" >
+                                <i class="fa fa-search" aria-hidden="true"></i><br>
+                                <span>смотреть репозиторий</span>
+                            </a>
+                            <img src="usercontent/img/project_oop.png">
+                        </div>
+                        <div class="portfolio-item__title">
+                            <a href="https://github.com/JeffectH/WarGame/blob/master/Program.cs">Война</a>
+                        </div>
+                        <div class="portfolio-item__description">
+                            Реализация 2 взводов и их сражение
+                        </div>
+                    </div>
+                </div>
 				<!-- // Работа в портфолио -->
 
 				<!-- Работа в портфолио -->
-				<div class="col-sm-4 mix bootstrap payed">
-					<div class="portfolio-item">
-						<div class="portfolio-item__image">
-							<a href="usercontent/img/full/motorcycles.jpg" class="fancybox portfolio-item__image__hover" rel="group" title="Магазин мотоциклов">
-								<i class="fa fa-search" aria-hidden="true"></i><br>
-								<span>смотреть макет</span>
-							</a>
-							<img src="usercontent/img/project_moto.jpg" alt="Магазин мотоциклов">
-						</div>
-						<div class="portfolio-item__title">
-							<a href="#">Магазин мотоциклов</a>
-						</div>
-						<div class="portfolio-item__description">
-							Верстка лендинга для компании Indian Motorcycles.
-						</div>
-					</div>
-				</div>
+				  <div class="col-sm-4 mix tutorial">
+                    <div class="portfolio-item">
+                        <div class="portfolio-item__image">
+                            <a href="https://github.com/JeffectH/Aquarium/blob/master/Aquarium/Program.cs" class="fancybox portfolio-item__image__hover" rel="group" >
+                                <i class="fa fa-search" aria-hidden="true"></i><br>
+                                <span>смотреть репозиторий</span>
+                            </a>
+                            <img src="usercontent/img/project_oop.png">
+                        </div>
+                        <div class="portfolio-item__title">
+                            <a href="https://github.com/JeffectH/Aquarium/blob/master/Aquarium/Program.cs">Аквариум</a>
+                        </div>
+                        <div class="portfolio-item__description">
+                            Реализованна программа, которая моделирует аквариум с ограниченным числом рыб
+                        </div>
+                    </div>
+                </div>
 				<!-- // Работа в портфолио -->
 
-				<!-- Работа в портфолио -->
-				<div class="col-sm-4 mix html-css payed">
-					<div class="portfolio-item">
-						<div class="portfolio-item__image">
-							<a href="usercontent/img/full/music.jpg" class="fancybox portfolio-item__image__hover" rel="group" title="Магазин аудиотехники">
-								<i class="fa fa-search" aria-hidden="true"></i><br>
-								<span>смотреть макет</span>
-							</a>
-							<img src="usercontent/img/project_music.jpg" alt="Магазин аудиотехники">
-						</div>
-						<div class="portfolio-item__title">
-							<a href="#">Магазин аудиотехники</a>
-						</div>
-						<div class="portfolio-item__description">
-							Верстка страниц для магазина винтажной аудиотехники.
-						</div>
-					</div>
-				</div>
-				<!-- // Работа в портфолио -->
+
 
 
 			</div>
@@ -332,7 +331,7 @@
 		</div>
 	</div>
 	<!-- // Портфолио -->
-    
+
 	<!-- Контакты -->
 	<div id="contacts" class="block-bg contacts section section--padding-smaller section--bg-cloud">
 		<div class="container">
