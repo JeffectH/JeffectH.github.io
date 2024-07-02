@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио C# | Unity</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
 </head>
 <body>
     <header>
@@ -30,14 +32,56 @@
         <section id="projects">
             <h2>Проекты</h2>
             <div class="project">
-                <h3>Проект 1</h3>
-                <p>Описание Проекта 1.</p>
+                <div class="logo">
+                    <a href="https://drakesoft.ru/" class="contact-link">
+                        <img src="logo_H.svg" alt="logo">
+                    </a>
+                </div>
+                <p>Это группа проектов, посвященных созданию приложений VR|AR направления.
+                    <br>С проектами можно ознакомиться подробнее на сайте (лого кликабельное).
+                    <br>При разработке использовались такие технологии как:
+                </p>
+                <ul>
+                    <li>Unity</li>
+                    <ul>
+                        <li>Для VR использовались фреймворки:</li>
+                        <ul>
+                            <li>XR Interaction ToolKit</li>
+                            <li>SteamVR</li>
+                        </ul>
+                        <li>Для AR использовались фреймворки:</li>
+                        <ul>
+                            <li>ARFoundation</li>
+                            <li>ARCore</li>
+                        </ul>
+                    </ul>
+                    <li>Spark AR Studio</li>
+                    <li>Blender</li>
+                    <li>Three.js + Mind-ar-js</li>
+                    <li>Сервисы по типу XR.PLUS</li>
+                </ul>
+                <div class="carousel">
+                    <div><iframe src="https://youtu.be/E545op8qF1M" frameborder="0" allowfullscreen></iframe></div>
+
+                    <div><iframe src="https://youtu.be/DOr_tAMmKdg" frameborder="0" allowfullscreen></iframe></div>
+
+                    <div><iframe src="https://youtu.be/7-gsll8lveU" frameborder="0" allowfullscreen></iframe></div>
+                    
+                    <div><iframe src="https://youtube.com/shorts/gvHZqz-OQRE" frameborder="0" allowfullscreen></iframe></div>
+                </div>
             </div>
             <div class="project">
-                <h3>Проект 2</h3>
-                <p>Описание Проекта 2.</p>
+                <div class="logo">
+                    <img src="logo-cnc.png" alt="logo">
+                </div>
+                <p>Создавался проект на заказ. Симулятор ЧПУ станков.</p>
+                <p>Реализовался на Unity. По проекту не могу показать код.</p>
+                <div class="carousel">
+                    <div><iframe src="https://youtu.be/CKAG_qkwGps" frameborder="0" allowfullscreen></iframe></div>
+                    <div><iframe src="https://youtu.be/L0kX9eiPcNE" frameborder="0" allowfullscreen></iframe></div>
+                    <div><iframe src="https://youtu.be/N1SiZO4gmI8" frameborder="0" allowfullscreen></iframe></div>
+                </div>
             </div>
-            <!-- Добавьте больше проектов по мере необходимости -->
         </section>
     </main>
     <section id="contact">
@@ -48,5 +92,8 @@
     <footer>
         <p>&copy; 2024 Евгений Малько. Все права защищены.</p>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
