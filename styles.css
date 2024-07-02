@@ -27,10 +27,31 @@ nav ul li a {
     text-decoration: none;
 }
 
-section {
+main {
+    display: flex;
+    justify-content: space-between;
     padding: 2em;
     background-color: white;
-    margin: 1em 0;
+}
+
+aside {
+    width: 30%;
+    text-align: center;
+}
+
+aside .photo {
+    margin-bottom: 2em;
+}
+
+aside .photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#projects {
+    width: 65%;
 }
 
 .project {
@@ -39,9 +60,21 @@ section {
     margin: 1em 0;
 }
 
+section {
+    padding: 2em;
+    background-color: white;
+    margin: 1em 0;
+}
+
 footer {
     text-align: center;
     padding: 1em 0;
     background-color: #333;
     color: white;
+}
+
+.contact-link {
+    color: #555; /* темно-серый цвет */
+    text-decoration: none; /* убрать подчеркивание */
+    font-size: 1.2em; /* крупнее шрифт */
 }
