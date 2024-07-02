@@ -84,7 +84,7 @@ footer {
     font-size: 1.2em; /* крупнее шрифт */
 }
 
-@media (min-width: 768px) {
+@media (min-width: 980px) {
     aside {
         width: 30%;
     }
