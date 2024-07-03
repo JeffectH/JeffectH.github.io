@@ -604,7 +604,6 @@ a.mouse_scroll:focus {
   display: block;
   overflow: hidden;
   margin-bottom: 15px;
-  background-image: url("../img/placeholders/project_placeholder.jpg");
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
